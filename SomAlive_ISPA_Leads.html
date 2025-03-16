@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SomAlive ISPA, Leads and Key Players</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+        .player-card {
+            background: #f5f5f5;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .player-card img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+        .info {
+            flex-grow: 1;
+        }
+        .dropdown {
+            display: none;
+            padding: 10px;
+            background: #e0e0e0;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        button {
+            background: #000000;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        button:hover {
+            background: #444444;
+        }
+    </style>
+    <script>
+        function toggleDetails(id) {
+            var details = document.getElementById(id);
+            details.style.display = details.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 style='color: #000000;'>SomAlive ISPA, Leads and Key Players</h1>
+
+        <div class="player-card">
+            <img src="profile1.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Vivian Henein</strong> <br>
+                <em>Four Seasons Los Angeles at Beverly Hills</em> <br>
+                <span>Title: Director</span> | <strong>Ranking: 5⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details1')">More Info</button>
+        </div>
+        <div id="details1" class="dropdown">
+            <p><strong>Notes:</strong> Wants an exclusive deal for high-end clientele.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile2.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Lynn Hearn</strong> <br>
+                <em>Club Wellness Evolutions</em> <br>
+                <span>Title: Consultant</span> | <strong>Ranking: 5⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details2')">More Info</button>
+        </div>
+        <div id="details2" class="dropdown">
+            <p><strong>Notes:</strong> Based in Florida, consultant for multiple spa locations across America. Interested in incorporating the Z into multiple locations.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile3.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Stephanie Cardwell</strong> <br>
+                <em>Omni Bedford Springs Resort and Spa</em> <br>
+                <span>Title: Resort and Spa Director</span> | <strong>Ranking: 5⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details3')">More Info</button>
+        </div>
+        <div id="details3" class="dropdown">
+            <p><strong>Notes:</strong> Very interested, mentioned that she can make the money back in 2-3 months. Can definitely see one of these in her spaces.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile4.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Just Sturgis</strong> <br>
+                <em>Trilogy Spa Holdings</em> <br>
+                <span>Title: Spa Operator</span> | <strong>Ranking: 5⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details4')">More Info</button>
+        </div>
+        <div id="details4" class="dropdown">
+            <p><strong>Notes:</strong> Opening a new spa, has a lot of clients who could be potential buyers.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile5.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Catherine Warren</strong> <br>
+                <em>Arch Amenities Group</em> <br>
+                <span>Title: Executive</span> | <strong>Ranking: 5⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details5')">More Info</button>
+        </div>
+        <div id="details5" class="dropdown">
+            <p><strong>Notes:</strong> A big lead for their network of spas and groups.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile6.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Alfredo Gonzalez</strong> <br>
+                <em>JW Marriott Bonnet Creek Orlando</em> <br>
+                <span>Title: Spa Director</span> | <strong>Ranking: 4⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details6')">More Info</button>
+        </div>
+        <div id="details6" class="dropdown">
+            <p><strong>Notes:</strong> Very interested, wants to bring the Z to his director to get it into multiple locations.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile7.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Laura Martinez</strong> <br>
+                <em>Four Seasons The Spa at The Surf Club</em> <br>
+                <span>Title: Senior Director of Spa</span> | <strong>Ranking: 4⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details7')">More Info</button>
+        </div>
+        <div id="details7" class="dropdown">
+            <p><strong>Notes:</strong> Loved the product... Wants to talk to their GMs. Should follow up to set a meeting or send more info.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile8.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Dave Frock</strong> <br>
+                <em>Clemson University</em> <br>
+                <span>Title: Wellness Center Director</span> | <strong>Ranking: 4⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details8')">More Info</button>
+        </div>
+        <div id="details8" class="dropdown">
+            <p><strong>Notes:</strong> Runs the wellness center at Clemson, building a new one. Wants one, wants to connect with a research expert.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile9.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Shazz Narduzzi</strong> <br>
+                <em>The Global Ambassador</em> <br>
+                <span>Title: Owner</span> | <strong>Ranking: 4⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details9')">More Info</button>
+        </div>
+        <div id="details9" class="dropdown">
+            <p><strong>Notes:</strong> Wants a follow-up. Very interested, owns a private residential spa outside Scottsdale.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile10.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Karen Coleman</strong> <br>
+                <em>Freedom Spas, LLC</em> <br>
+                <span>Title: Founder</span> | <strong>Ranking: 4⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details10')">More Info</button>
+        </div>
+        <div id="details10" class="dropdown">
+            <p><strong>Notes:</strong> Very impressed and interested. Wants a 15-minute demo with her business partner.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile11.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Pamela Maes</strong> <br>
+                <em>Omni Boston Hotel at The Seaport</em> <br>
+                <span>Title: Director of Spa</span> | <strong>Ranking: 3⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details11')">More Info</button>
+        </div>
+        <div id="details11" class="dropdown">
+            <p><strong>Notes:</strong> Interested but has some special concerns.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile12.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Mike Oldfield</strong> <br>
+                <em>Leela Eco Spa</em> <br>
+                <span>Title: Partner</span> | <strong>Ranking: 3⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details12')">More Info</button>
+        </div>
+        <div id="details12" class="dropdown">
+            <p><strong>Notes:</strong> Interested in becoming a partner in Canada when we expand globally.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile13.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Daniel Spencer</strong> <br>
+                <em>The Spa at Séc-he</em> <br>
+                <span>Title: Director of Spas</span> | <strong>Ranking: 4⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details13')">More Info</button>
+        </div>
+        <div id="details13" class="dropdown">
+            <p><strong>Notes:</strong> Has a wellness spa and resort in Palm Desert, very into the style and wants a unit.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile14.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Derek Hofmann</strong> <br>
+                <em>Four Seasons Orlando at Walt Disney World Resort</em> <br>
+                <span>Title: Sleep Development</span> | <strong>Ranking: 5⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details14')">More Info</button>
+        </div>
+        <div id="details14" class="dropdown">
+            <p><strong>Notes:</strong> Hot lead! Interested in relaxation and sleep technology.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile15.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Tiffany Herbert</strong> <br>
+                <em>California State University, Dominguez Hills (CSUDH)</em> <br>
+                <span>Title: Associate VP, Health & Well-Being</span> | <strong>Ranking: 4⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details15')">More Info</button>
+        </div>
+        <div id="details15" class="dropdown">
+            <p><strong>Notes:</strong> Opening a wellness center, wants stress reduction equipment for students.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile16.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Katie Gilligan</strong> <br>
+                <em>Park Hyatt Toronto - Stillwater Spa</em> <br>
+                <span>Title: Director</span> | <strong>Ranking: 4⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details16')">More Info</button>
+        </div>
+        <div id="details16" class="dropdown">
+            <p><strong>Notes:</strong> Has an empty room above a subway, looking for an immersive experience to drown out noise.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile17.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Rod Derifield</strong> <br>
+                <em>Living Earth Crafts</em> <br>
+                <span>Title: CEO</span> | <strong>Ranking: 1⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details17')">More Info</button>
+        </div>
+        <div id="details17" class="dropdown">
+            <p><strong>Notes:</strong> Manufactures sound beds, tried the experience.</p>
+        </div>
+    
+        <div class="player-card">
+            <img src="profile18.jpg" alt="Profile Picture">
+            <div class="info">
+                <strong>Jane Kitchen</strong> <br>
+                <em>Spa Business and Spa Business Insider</em> <br>
+                <span>Title: Publisher</span> | <strong>Ranking: 2⭐</strong>
+            </div>
+            <button onclick="toggleDetails('details18')">More Info</button>
+        </div>
+        <div id="details18" class="dropdown">
+            <p><strong>Notes:</strong> Loved the vibration tech! Strong lead for media coverage.</p>
+        </div>
+    
+    </div>
+</body>
+</html>
